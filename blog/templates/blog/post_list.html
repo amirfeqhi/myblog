@@ -3,9 +3,13 @@
         <title>amirfeqhi blog</title>
     </head>
     <body>
+    {% for post in posts %}
         <div>
-            <h1><a href="">amirfeqhi Blog</a></h1>
+            <p>published: {{ post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
         </div>
+    {% endfor %}
 
         <div>
             <p>published: </p>
