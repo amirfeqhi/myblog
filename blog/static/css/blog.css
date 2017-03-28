@@ -19,9 +19,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
-    text-align:right;
-    direction: rtl;
+    font-family: 'Lobster', cursive
 }
 
 .date {
@@ -43,15 +41,12 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    text-align:right;
-    direction: rtl;
     font-size: 26pt;
     margin-right: 20px;
 }
 
 .post {
     margin-bottom: 70px;
-    direction: rtl;
 }
 
 .post h1 a, .post h1 a:visited {
