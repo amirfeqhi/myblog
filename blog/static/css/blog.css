@@ -7,10 +7,16 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-align:right;
+    direction: rtl;
 }
 
 .content {
-    margin-left: 40px;
+    margin-top: 0;
+    text-align: right;
+    margin-left: 500px;
+    text-decoration: none;
+    position: fixed;
 }
 
 h1, h2, h3, h4 {
@@ -19,6 +25,7 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    direction: ltr;
 }
 
 .save {
@@ -38,6 +45,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    direction: rtl;
 }
 
 .post h1 a, .post h1 a:visited {
