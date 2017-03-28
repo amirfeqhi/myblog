@@ -21,10 +21,13 @@
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    text-align:right;
+    direction: rtl;
 }
 
 .date {
     color: #828282;
+    text-align:right;
     direction: ltr;
 }
 
@@ -33,12 +36,16 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
+    text-align:right;
+    direction: rtl;
     width: 100%;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
+    text-align:right;
+    direction: rtl;
     font-size: 26pt;
     margin-right: 20px;
 }
